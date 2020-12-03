@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+node_modules/
+esm/
+dist/
+RELEASE-NOTES.md
+package-lock.json

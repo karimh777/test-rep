@@ -1,0 +1,66 @@
+{
+  "name": "tailwindvue-test",
+  "version": "0.0.1",
+  "description": "Tailwind vue test package",
+  "main": "index.js",
+  "repository": "''",
+  "author": "Softveld",
+  "license": "MIT",
+  "homepage": "https://bootstrap-vue.org",
+  "contributors": [],
+  "scripts": {
+    "audit": "improved-yarn-audit --ignore-dev-deps --min-severity moderate -e 1488",
+    "build": "scripts/build.sh",
+    "bundlewatch": "bundlewatch --config .bundlewatch.config.json",
+    "lint": "eslint --ext .js ./",
+    "prettify": "prettier --write \"**/*.{js,json,md,css,vue}\"",
+    "release-notes": "node -r esm scripts/release-notes.js",
+    "test": "yarn run test:lint && yarn run test:unit",
+    "test:lint": "yarn run test",
+    "test:unit": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*{.js,.md,.vue}": "eslint --ext",
+    "**/*.{js,json,md,scss,ts,vue}": "prettier --write"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.8",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "autoprefixer": "^10.0.2",
+    "bundlewatch": "^0.3.1",
+    "core-js": "^3.8.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^7.1.0",
+    "esm": "^3.2.25",
+    "execa": "^4.1.0",
+    "husky": "^4.3.0",
+    "improved-yarn-audit": "^2.3.1",
+    "lint-staged": "^10.5.2",
+    "lodash": "^4.17.20",
+    "prettier": "2.2.0",
+    "rollup": "^2.33.3",
+    "terser": "^5.5.1",
+    "vue": "^2.6.12"
+  },
+  "dependencies": {
+    "vue-functional-data-merge": "^3.1.0"
+  }
+}

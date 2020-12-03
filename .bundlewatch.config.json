@@ -1,0 +1,11 @@
+{
+  "files": [
+    {
+      "path": "./dist/tailwindvue-test.common.js",
+      "maxSize": "120 kB"
+    }
+  ],
+  "ci": {
+    "trackBranches": ["master", "dev"]
+  }
+}
