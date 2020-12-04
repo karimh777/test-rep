@@ -1,6 +1,7 @@
 {
-  scripts": {
-    "postchangelog": "./node_modules/.bin/prettier --write CHANGELOG.md"
+  "skip": {
+    "commit": true,
+    "tag": true
   },
   "types": [
     {
