@@ -1,6 +1,6 @@
 {
   "name": "tailwindvue-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tailwind vue test package",
   "main": "index.js",
   "repository": "''",
@@ -15,6 +15,7 @@
     "lint": "eslint --ext .js ./",
     "prettify": "prettier --write \"**/*.{js,json,md,css,vue}\"",
     "release-notes": "node -r esm scripts/release-notes.js",
+    "release": "yarn run prettify && yarn run build && yarn run release-notes && standard-version",
     "test": "yarn run test:lint && yarn run test:unit",
     "test:lint": "yarn run test",
     "test:unit": "jest"
@@ -57,6 +58,7 @@
     "lodash": "^4.17.20",
     "prettier": "2.2.0",
     "rollup": "^2.33.3",
+    "standard-version": "^9.0.0",
     "terser": "^5.5.1",
     "vue": "^2.6.12"
   },
