@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](///compare/v0.0.9...v0.0.10) (2020-12-04)
+
 ### [0.0.9](///compare/v0.0.8...v0.0.9) (2020-12-04)
 
 ### [0.0.8](///compare/v0.0.7...v0.0.8) (2020-12-04)
@@ -23,6 +25,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.2](///compare/v0.0.1...v0.0.2) (2020-12-04)
 
-### Features
+  ### Features
 
 - adding new area function. ([33654d8](///commit/33654d85ce51f46f912ff19ff87345416d469fe6))
