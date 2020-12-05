@@ -1,4 +1,5 @@
 {
+  "postchangelog": "prettier --write CHANGELOG.md",
   "skip": {
     "commit": true,
     "tag": true

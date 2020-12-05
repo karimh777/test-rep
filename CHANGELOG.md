@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](///compare/v0.0.11...v0.0.15) (2020-12-05)
+
+
+### Bug Fixes
+
+* fixing bug. ([cb4e463](///commit/cb4e46398e969d528de642dd0b9ac22122966cea))
+
+### [0.0.14](///compare/v0.0.11...v0.0.14) (2020-12-04)
+
+### Bug Fixes
+
+- fixing bug. ([cb4e463](///commit/cb4e46398e969d528de642dd0b9ac22122966cea))
+
+### [0.0.13](///compare/v0.0.11...v0.0.13) (2020-12-04)
+
+### Bug Fixes
+
+- fixing bug. ([cb4e463](///commit/cb4e46398e969d528de642dd0b9ac22122966cea))
+
 ### [0.0.12](///compare/v0.0.11...v0.0.12) (2020-12-04)
 
 ### [0.0.11](///compare/v0.0.10...v0.0.11) (2020-12-04)
@@ -29,6 +48,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.2](///compare/v0.0.1...v0.0.2) (2020-12-04)
 
-  ### Features
+### Features
 
 - adding new area function. ([33654d8](///commit/33654d85ce51f46f912ff19ff87345416d469fe6))
