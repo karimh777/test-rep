@@ -18,7 +18,7 @@ updates:
     schedule:
       interval: "daily"
       time: "12:00"
-      timezone: Europe/Berli
+      timezone: Europe/Berlin
     ignore:
       - dependency-name: "prettier"
         versions: [">1.14.3"]
