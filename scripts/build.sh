@@ -48,6 +48,6 @@ terser dist/tailwindvue-test.esm.js \
 echo 'Done.'
 echo ''
 
-echo $?
+#echo $?
 
-sleep 1m
+#sleep 1m
