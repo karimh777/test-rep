@@ -22,12 +22,9 @@ updates:
     ignore:
       - dependency-name: "prettier"
         versions: [">1.14.3"]
-   reviewers:
+    reviewers:
       - karimh777
-   labels:
+    labels:
       - "Type: Dependencies"
-   versioning-strategy: increase
-   rebase-strategy: disabled
-
-
-
+    versioning-strategy: increase
+    rebase-strategy: disabled
