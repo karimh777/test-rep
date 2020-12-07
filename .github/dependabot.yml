@@ -1,0 +1,34 @@
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: "12:00"
+      timezone: Europe/Berlin
+    reviewers:
+      - karmih777
+    labels:
+      - "Type: CI"
+      - "Type: Dependencies"
+    
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "12:00"
+      timezone: Europe/Berli
+    ignore:
+      - dependency-name: "prettier"
+        versions: [">1.14.3"]    
+   reviewers:
+      - karmih777
+   labels:
+      - "Type: Dependencies"
+   versioning-strategy: increase
+   rebase-strategy: disabled
+  
+      
+      
