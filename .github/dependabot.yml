@@ -9,11 +9,11 @@ updates:
       time: "12:00"
       timezone: Europe/Berlin
     reviewers:
-      - karmih777
+      - karimh777
     labels:
       - "Type: CI"
       - "Type: Dependencies"
-    
+
   - package-ecosystem: npm
     directory: "/"
     schedule:
@@ -22,13 +22,13 @@ updates:
       timezone: Europe/Berli
     ignore:
       - dependency-name: "prettier"
-        versions: [">1.14.3"]    
+        versions: [">1.14.3"]
    reviewers:
-      - karmih777
+      - karimh777
    labels:
       - "Type: Dependencies"
    versioning-strategy: increase
    rebase-strategy: disabled
-  
-      
-      
+
+
+
