@@ -1,8 +1,7 @@
 {
   "files": [
     {
-      "path": "./dist/tailwindvue-test.common.js",
-      "maxSize": "120 kB"
+      "path": "./dist/tailwindvue-test.common.js"
     }
   ],
   "ci": {
