@@ -30,7 +30,7 @@
     "**/*.{js,json,md,scss,ts,vue}": "prettier --write"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.8",
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.9",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
