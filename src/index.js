@@ -7,5 +7,5 @@ export const area = (a, b) => {
 };
 
 export const Pi = () => {
-  return 3.14;
+  return 3.142;
 };
