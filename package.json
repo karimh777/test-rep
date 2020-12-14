@@ -57,7 +57,7 @@
     "lint-staged": "^10.5.3",
     "lodash": "^4.17.20",
     "prettier": "2.2.0",
-    "rollup": "^2.34.2",
+    "rollup": "^2.35.0",
     "standard-version": "^9.0.0",
     "terser": "^5.5.1",
     "vue": "^2.6.12"
