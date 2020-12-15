@@ -39,7 +39,7 @@ jobs:
           restore-keys: |
             ${{ matrix.os }}-node-v${{ matrix.node }}-yarn-
             ${{ matrix.os }}-node-v${{ matrix.node }}-
-            ${{ matrix.os }}-}
+            ${{ matrix.os }}-
 
       - name: Install dependencies
         run: yarn install --check-files --frozen-lockfile --non-interactive
