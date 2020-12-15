@@ -1,14 +1,30 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[standard-version](https://github.com/conventional-changelog/standard-version) for commit
+guidelines.
 
-### [0.0.16](///compare/v0.0.11...v0.0.16) (2020-12-05)
+### [0.0.19](///compare/v0.0.17...v0.0.19) (2020-12-15)
 
+### [0.0.18](///compare/v0.0.17...v0.0.18) (2020-12-15)
+
+### [0.0.17](///compare/v0.0.16...v0.0.17) (2020-12-15)
+
+### Features
+
+- add new Pi function. ([df95069](///commit/df9506928da388c58ef0dbc520fe66aa6f5dfde8))
 
 ### Bug Fixes
 
-* fixing bug. ([cb4e463](///commit/cb4e46398e969d528de642dd0b9ac22122966cea))
-* just trying version rules. ([c16132a](///commit/c16132a9664e4aad7af52a7707b85d9a776763af))
+- changing Pi function return value ([#22](null//undefined/issues/22))
+  ([95e7ac5](///commit/95e7ac5cb82ba5e893b46b25e90e79797a32275c))
+
+### [0.0.16](///compare/v0.0.11...v0.0.16) (2020-12-05)
+
+### Bug Fixes
+
+- fixing bug. ([cb4e463](///commit/cb4e46398e969d528de642dd0b9ac22122966cea))
+- just trying version rules. ([c16132a](///commit/c16132a9664e4aad7af52a7707b85d9a776763af))
 
 ### [0.0.15](///compare/v0.0.11...v0.0.15) (2020-12-05)
 
