@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-# alias node='node.exe'
+ alias node='node.exe'
 
 BV_VERSION=$(node -p -e "require('./package.json').version")
 BV_BANNER=$(node -p "require('./scripts/banner')")
