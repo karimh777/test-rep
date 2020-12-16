@@ -6,6 +6,12 @@
   "proseWrap": "always",
   "overrides": [
     {
+      "files": ".github/**/*.md",
+      "options": {
+        "proseWrap": "preserve"
+      }
+    },
+    {
       "files": "*.css",
       "options": {
         "singleQuote": false
