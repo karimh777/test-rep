@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See
 [standard-version](https://github.com/conventional-changelog/standard-version) for commit
 guidelines.
 
+### [0.0.21](///compare/v0.0.19...v0.0.21) (2020-12-17)
+
+### Features
+
+- add circle area fucntion ([#41](null//undefined/issues/41))
+  ([27c46e0](///commit/27c46e0be6cfe89efd3884ba868e07536350ff82))
+
 ### [0.0.20](///compare/v0.0.19...v0.0.20) (2020-12-16)
 
 ### [0.0.19](///compare/v0.0.17...v0.0.19) (2020-12-15)
