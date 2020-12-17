@@ -2,6 +2,8 @@ export const cube = (x) => {
   return x * x * x;
 };
 
+/* removing area function */
+
 export const Pi = () => {
   return 3.14213;
 };
