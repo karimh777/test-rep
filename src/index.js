@@ -18,4 +18,4 @@ export const featreA = () => {
 
 export const featureB = () => {
   return 'feature BB';
-}
+};
