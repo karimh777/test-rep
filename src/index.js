@@ -11,3 +11,7 @@ export const Pi = () => {
 export const circleArea = (r) => {
   return Pi * r * r;
 };
+
+export const featreA = () => {
+  return 'feature A';
+};
