@@ -15,3 +15,7 @@ export const circleArea = (r) => {
 export const featreA = () => {
   return 'feature A';
 };
+
+export const featureB = () => {
+  return 'feature BB';
+}
