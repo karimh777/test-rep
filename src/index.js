@@ -13,5 +13,5 @@ export const circleArea = (r) => {
 };
 
 export const featureB = () => {
-  return 'feature B';
+  return 'feature BB';
 };
