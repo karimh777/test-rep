@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file. See
 [standard-version](https://github.com/conventional-changelog/standard-version) for commit
 guidelines.
 
+### [0.0.23](///compare/v0.0.19...v0.0.23) (2020-12-18)
+
+### Features
+
+- add circle area fucntion ([#41](null//undefined/issues/41))
+  ([46430b5](///commit/46430b5e24354ca38c248f5d27d40fdeefbbb550))
+- add circle area fucntion ([#41](null//undefined/issues/41))
+  ([27c46e0](///commit/27c46e0be6cfe89efd3884ba868e07536350ff82))
+- add feature A ([#47](null//undefined/issues/47))
+  ([002c26c](///commit/002c26c258eea15581319322e23af2d996b06bd4))
+- add feature B ([#48](null//undefined/issues/48))
+  ([8fb7887](///commit/8fb7887fd52c5a5269b9c18739fbdb66c64ae1dd))
+- adding feature C ([#51](null//undefined/issues/51))
+  ([0b863b8](///commit/0b863b85593d47c9ffc10d7ad39d781344dfc150))
+- remove area function ([f52c362](///commit/f52c3626b448727e1849419396845548382042eb))
+- remove area function ([#45](null//undefined/issues/45))
+  ([00ae495](///commit/00ae495b8a89e4cc14667ab72c2454048f0ef6c7))
+
 ### [0.0.22](///compare/v0.0.19...v0.0.22) (2020-12-17)
 
 ### Features

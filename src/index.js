@@ -19,3 +19,11 @@ export const featreA = () => {
 export const featureB = () => {
   return 'feature BB';
 };
+
+export const featureC = () => {
+  return 'feature C';
+};
+
+export const featureD = () => {
+  return 'feature D';
+};
