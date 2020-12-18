@@ -27,3 +27,7 @@ export const featureC = () => {
 export const featureD = () => {
   return 'feature D';
 };
+
+export const featureE = () => {
+  return 'feature E';
+};
