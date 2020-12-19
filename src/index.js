@@ -31,3 +31,7 @@ export const featureD = () => {
 export const featureE = () => {
   return 'feature E';
 };
+
+export const feature1 = () => {
+  return 'feature 1';
+};
