@@ -2,9 +2,10 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
+    'jest/globals': true,
   },
   extends: ['standard', 'plugin:vue/recommended', 'plugin:prettier/recommended'],
-  plugins: ['node', 'promise'],
+  plugins: ['node', 'promise', 'jest'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     sourceType: 'module',

@@ -15,6 +15,9 @@ module.exports = (api) => {
       esm: {
         presets: [['@babel/preset-env', { modules: false }]],
       },
+      test: {
+        presets: [['@babel/env', { targets: { node: 'current' } }]],
+      },
     },
   };
 };
