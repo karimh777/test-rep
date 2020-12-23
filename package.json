@@ -34,7 +34,8 @@
     "release": "yarn run prettify && yarn run test && yarn run build && yarn run release-notes && standard-version",
     "test": "yarn run test:lint && yarn run test:unit",
     "test:lint": "yarn run lint",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "watch": "rollup -c scripts/rollup.config.js --watch"
   },
   "husky": {
     "hooks": {
