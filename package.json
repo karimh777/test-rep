@@ -1,13 +1,29 @@
 {
-  "name": "tailwindvue-test",
+  "name": "karim-tailwindvue-test",
   "version": "0.0.25",
   "description": "Tailwind vue test package",
-  "main": "index.js",
-  "repository": "''",
-  "author": "Softveld",
+  "main": "dist/tailwindvue-test.common.js",
+  "web": "dist/tailwindvue-test.js",
+  "module": "esm/index.js",
+  "repository": "karimh777/test-rep",
   "license": "MIT",
-  "homepage": "https://bootstrap-vue.org",
-  "contributors": [],
+  "homepage": "https://github.com/karimh777/test-rep",
+  "contributors": [
+    {
+      "name": "karimh777",
+      "url": "https://github.com/karimh777"
+    }
+  ],
+  "files": [
+    "dist",
+    "esm"
+  ],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.vue",
+    "./docs",
+    "./types"
+  ],
   "scripts": {
     "audit": "improved-yarn-audit --ignore-dev-deps --min-severity moderate -e 1488",
     "build": "scripts/build.sh",
@@ -67,5 +83,61 @@
   },
   "dependencies": {
     "vue-functional-data-merge": "^3.1.0"
-  }
+  },
+  "keywords": [
+    "Tailwind",
+    "Tailwind for Vue",
+    "Vue",
+    "Vue.js",
+    "Vue v2",
+    "SSR",
+    "Web",
+    "Components",
+    "Directives",
+    "ARIA",
+    "Accessibility",
+    "a11y",
+    "CSS",
+    "Alert",
+    "Avatar",
+    "Badge",
+    "Breadcrumb",
+    "Button",
+    "Calendar",
+    "Card",
+    "Carousel",
+    "Checkbox",
+    "Collapse",
+    "Collapse",
+    "Date picker",
+    "Datepicker",
+    "Dropdown",
+    "Dropzone",
+    "Form",
+    "Input",
+    "Jumbotron",
+    "List",
+    "Modal",
+    "Nav",
+    "Navbar",
+    "Option",
+    "Overlay",
+    "Pagination",
+    "Popover",
+    "Progress",
+    "Radio",
+    "Select",
+    "Sidebar",
+    "Skeleton",
+    "Slider",
+    "Spinner",
+    "Tab",
+    "Table",
+    "Tag",
+    "Tags",
+    "Time picker",
+    "Timepicker",
+    "Toast",
+    "Tooltip"
+  ]
 }
