@@ -1,5 +1,5 @@
 {
-  "name": "karim-tailwindvue-test",
+  "name": "tailwindvue-test",
   "version": "0.0.25",
   "description": "Tailwind vue test package",
   "main": "dist/tailwindvue-test.common.js",
