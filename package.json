@@ -78,7 +78,7 @@
     "lodash": "^4.17.20",
     "prettier": "2.2.0",
     "rollup": "^2.35.1",
-    "standard-version": "^9.0.0",
+    "standard-version": "^9.5.0",
     "terser": "^5.5.1",
     "vue": "^2.6.12"
   },
