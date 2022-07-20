@@ -79,7 +79,7 @@
     "prettier": "2.2.0",
     "rollup": "^2.35.1",
     "standard-version": "^9.0.0",
-    "terser": "^5.5.1",
+    "terser": "^5.14.2",
     "vue": "^2.6.12"
   },
   "dependencies": {
